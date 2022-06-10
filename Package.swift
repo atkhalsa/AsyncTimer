@@ -1,9 +1,6 @@
-//
-//  Package.swift
-//
-//  Created by Adrian Bobrowski on 21.06.2017.
-//  Copyright © 2017 Adrian Bobrowski (Decybel07), adrian071993@gmail.com. All rights reserved.
-//
+// swift-tools-version: 5.6
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+
 
 import PackageDescription
 
