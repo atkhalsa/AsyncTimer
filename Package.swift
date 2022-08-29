@@ -6,5 +6,17 @@ import PackageDescription
 let package = Package(
     name: "AsyncTimer",
     platforms: [.iOS(.v12), .macOS(.v11), .watchOS(.v5), .tvOS(.v12)],
-    dependencies: []
+    products: [
+        .library(name: "AsyncTimer", targets: ["AsyncTimer"])
+    ],
+    dependencies: [],
+    targets: [
+        .target(
+            name: "AsyncTimer",
+            path: "Source",
+            exclude: [
+                "Info.plist"
+            ]
+        )
+    ]
 )
