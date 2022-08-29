@@ -13,9 +13,12 @@ let package = Package(
     targets: [
         .target(
             name: "AsyncTimer",
-            path: "Source",
-            resources: [.copy("info.plist")]
+            path: "",
+            exclude: ["Example", "Images", "CHANGELOG.md", "AsyncTimer.podspec", "README.md"],
+            resources: [
+                .copy("Source/info.plist"),
+                .copy("LICENSE")
+            ]
         )
     ]
-    
 )
