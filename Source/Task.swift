@@ -6,6 +6,8 @@
 //  Copyright © 2017 Adrian Bobrowski (Decybel07), adrian071993@gmail.com. All rights reserved.
 //
 
+import Foundation
+
 internal class Task {
 
     var counter: Counter
